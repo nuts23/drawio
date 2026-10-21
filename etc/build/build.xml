@@ -116,6 +116,8 @@ OUTPUT FILES (in src/main/webapp/js/):
 				<file name="Extensions.js" />
 			</sources>
 			<sources dir="${war.dir}/js/diagramly/vsdx">
+				<file name="mxVsdxCanvas2D.js" />
+				<file name="VsdxExport.js" />
 				<file name="bmpDecoder.js" />
 				<file name="importer.js" />
 			</sources>

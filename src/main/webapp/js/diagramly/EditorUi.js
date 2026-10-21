@@ -33747,7 +33747,7 @@
 	
 	EditorUi.prototype.vsdxExportEnabled = function()
 	{
-		return this.getServiceName() == 'atlassian';
+		return true;
 	};
 
 	EditorUi.prototype.addRemoteServiceSecurityCheck = function(xhr)
